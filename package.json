@@ -1,33 +1,18 @@
-"scripts": { "start": "node server.js" }
-
-
 {
   "name": "vision-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "multer": "^2.0.2",
     "openai": "^6.6.0",
-    "zod": "^4.1.12",
-    "express": "^5.1.0",
-    "multer": "^2.0.2",
-    "openai": "^6.6.0",
-    "zod": "^4.1.12",
+    "zod": "^3.23.8",
     "helmet": "^7.1.0",
     "cors": "^2.8.5",
     "express-rate-limit": "^7.1.5"
-
+  }
 }
-
-}
-
-
-
